@@ -13,7 +13,7 @@ This project is an implementation of tools for document preprocessing and intera
 
 **Evolutionary Algorithm**
 
-Evolutionary algorithm is implemented in JavaScript and since it is interactive, the fitness function is replaced by users input. Documents are random at start but users are allowed to rate documents of interest and depending on the ratings in the previous generations the system will create a new generation containing similar documents to the higly rated ones converging towards page filled with documents interesting to the user. Various settings can be changed in the code including : 
+Evolutionary algorithm is implemented in JavaScript and since it is interactive, the fitness function is replaced by users input. Documents are random at start but users are allowed to rate documents of interest and depending on the ratings in the previous generations the system will create a new generation containing similar documents to the higly rated ones converging towards page filled with documents interesting to the user. Various settings can be changed in the code including: 
 - **supermutation** - number of completely random documents on each page.
 - **elitism** - number of documents with highest rating from previous generation.
 - **mutation rate and step** - probability of mutation occuring and its impact.
